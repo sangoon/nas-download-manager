@@ -1,6 +1,6 @@
 {
   "name": "nas-download-manager",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "An open source browser extension for adding/managing download tasks to your Synology DiskStation.",
   "scripts": {
     "test": "TS_NODE_PROJECT=test/tsconfig-test.json mocha --require ts-node/register 'test/**/*.{ts,tsx}'",
@@ -27,6 +27,7 @@
     "@types/react": "^17.0.34",
     "@types/react-dom": "^17.0.0",
     "chai": "^4.1.2",
+    "eslint": "^8.39.0",
     "glob": "^7.1.2",
     "mocha": "^4.0.1",
     "parcel-bundler": "^1.12.4",
@@ -45,5 +46,6 @@
     "react-dom": "^17.0.2",
     "react-textarea-autosize": "^8.3.2",
     "webextension-polyfill": "^0.7.0"
-  }
+  },
+  "packageManager": "yarn@3.5.0"
 }
